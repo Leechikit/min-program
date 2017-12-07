@@ -15,9 +15,6 @@ Page({
       url: '../logs/logs'
     })
   },
-  clickMe: function(){
-    this.setData({ motto: "Hello SB"});
-  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
